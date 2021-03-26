@@ -5,7 +5,7 @@ from Commands.PythonCommandBase import PythonCommand, ImageProcPythonCommand
 from Commands.Keys import KeyPress, Button, Direction, Stick
 
 class Delibird_Search(ImageProcPythonCommand):
-    NAME = 'JPN_デリバードレイド★5 検索'
+    NAME = 'JPN_★5デリバードレイド検索'
 
     def __init__(self,cam):
         super().__init__(cam)
