@@ -1,3 +1,35 @@
+# Poke-Controller plug-in
+Poke-Controller用の自動化プラグインになります。<br>
+追加したプログラムに関する問い合わせは、IssueまたはTwitter DM [@junky_poke](https://twitter.com/junky_poke_) まで。<br>
+ 
+## 追加プログラム 
+ 
+### 1.画像の閾値を確認するプログラム
+用意した画像の閾値を調べるためのプログラムです。<br>
+デフォルトでは、Network_Offline.pngの画像になっていますので、任意の画像に変更して使用ください。<br>
+> File: IMG Check.py <br>
+> Title: IMG_Check <br>
+<br>
+ 
+### 2.デリバードレイドの検索（星4/星5)
+冠の雪原で、巣穴でレア柱を建てた後に使用できます。<br>
+Switchの日付変更を可能にした状態で、巣穴の前で使用してください。<br>
+> File: JPN_Delibird4_Search.py , JPN_Dlibird5_Search.py <br>
+> Title: JPN_★4デリバードレイド検索, JPN_★5デリバードレイド検索 <br>
+<br>
+ 
+### 3.リポップでの色違い厳選プログラム(JPN/ENG/GER)
+手持ちのポケモンを4匹以上にした状態で、固定シンボルのリポップの設定をしてください。<br>
+ソフトウェアを起動したら自動でエンカウントできるリポップの設定ができたら、ゲームタイトル画面で使用してください。<br>
+> File: JPN_Repop_Shiny.py, ENG_Repop_Shiny.py, GER_Repop_Shiny.py <br>
+> Title: JPN_リポップ色違い厳選, ENG_リポップ色違い厳選, GER_リポップ色違い厳選 <br>
+<br>
+<br>
+
+以下は、本家様の説明になります。
+ 
+---
+
 # Poke-Controller
 
 Pythonで書く！Switchの自動化支援ソフトウェア
