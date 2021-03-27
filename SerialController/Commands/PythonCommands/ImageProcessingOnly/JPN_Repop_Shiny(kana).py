@@ -5,14 +5,14 @@ from Commands.PythonCommandBase import PythonCommand, ImageProcPythonCommand
 from Commands.Keys import KeyPress, Button, Direction, Stick, Hat
 
 class AutoEncount(ImageProcPythonCommand):
-    NAME = 'JPN(漢字)_リポップ色違い厳選'
+    NAME = 'JPN(ひらがな)_リポップ色違い厳選'
 
     def __init__(self,cam):
         super().__init__(cam)
 
     def do(self):
         print("-------------------------------")
-        print("JPN(漢字)リポップ色違い厳選 ver.1.0")
+        print("JPN(ひらがな)リポップ色違い厳選 ver.1.0")
         print("Developed by.じゃんきー")
         print("-------------------------------")
         self.wait(0.5)
@@ -21,7 +21,7 @@ class AutoEncount(ImageProcPythonCommand):
 
         while True:
             self.wait(0.5)
-            while not self.isContainTemplate('yasei.png', threshold=0.8, use_gray=True, show_value=False):
+            while not self.isContainTemplate('yasei_kana.png', threshold=0.8, use_gray=True, show_value=False):
                 self.press(Button.A, wait=0.3)
             print("判定中...")
             self.wait(2.6) #yaseino！からの時間調整
