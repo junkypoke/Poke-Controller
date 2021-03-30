@@ -5,7 +5,7 @@ from Commands.PythonCommandBase import PythonCommand, ImageProcPythonCommand
 from Commands.Keys import KeyPress, Button, Direction, Stick
 
 class AutoFishing(ImageProcPythonCommand):
-    NAME = '釣り厳選_2.0'
+    NAME = 'JPN(漢字)釣り色厳選 ver.2.0'
 
     def __init__(self,cam):
         super().__init__(cam)
