@@ -5,14 +5,14 @@ from Commands.PythonCommandBase import PythonCommand, ImageProcPythonCommand
 from Commands.Keys import KeyPress, Button, Direction, Stick
 
 class AutoFishing(ImageProcPythonCommand):
-    NAME = 'JPN(漢字)釣り色厳選 ver.2.0'
+    NAME = 'JPN(漢字)釣り色厳選 ver.2.1'
 
     def __init__(self,cam):
         super().__init__(cam)
 
     def do(self):
         print("-------------------------------")
-        print("JPN(漢字)釣り色厳選 ver.2.0")
+        print("JPN(漢字)釣り色厳選 ver.2.1")
         print("Developed by.じゃんきー")
         print("Special Thanks:Mari Ai Ai")
         print("-------------------------------")
@@ -25,8 +25,8 @@ class AutoFishing(ImageProcPythonCommand):
             print("wait...")
             if self.isContainTemplate('Network_Offline.png',0.7, show_value=False):
                 print("Offline_Check:OK")
-                print("wait...4.5sec")
-                self.wait(4.5)
+                print("wait...5.5sec")
+                self.wait(5.5)
                 self.press(Button.A, 0.05)
                 while not (self.isContainTemplate('hit.png', threshold=0.9, use_gray=True, show_value=False)):
                     self.wait(0.1)
