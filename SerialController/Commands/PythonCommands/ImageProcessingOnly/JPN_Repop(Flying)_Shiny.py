@@ -34,7 +34,7 @@ class AutoEncount(ImageProcPythonCommand):
                         self.press(Button.LCLICK, 0.2)
                 print("判定中...")
                 self.wait(2.6) #yaseino！からの時間調整
-                if self.isContainTemplate('Encount_Ball4.png',0.8, use_gray=False, show_value=False):
+                if self.isContainTemplate('Encount_Ball4.png',0.7, use_gray=False, show_value=False):
                     self.wait(0.4)
                     print("試行回数",count,"回") #カウント
                     count += 1
